@@ -1,0 +1,17 @@
+{
+  "name": "OpenclawApp",
+  "displayName": "OpenclawApp",
+  "expo": {
+    "name": "OpenclawApp",
+    "slug": "openclawapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "android": {
+      "package": "com.openclawapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.openclawapp"
+    }
+  }
+}
