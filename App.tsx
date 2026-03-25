@@ -6,11 +6,6 @@
  */
 
 import * as Clarity from '@microsoft/react-native-clarity';
-
-Clarity.initialize('w1drbyi717', {
-  logLevel: Clarity.LogLevel.None, // Note: Use "LogLevel.Verbose" value while testing to debug initialization issues.
-});
-
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
@@ -30,6 +25,10 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+
+Clarity.initialize('w1drbyi717', {
+  logLevel: Clarity.LogLevel.None, // Note: Use "LogLevel.Verbose" value while testing to debug initialization issues.
+});
 
 type SectionProps = PropsWithChildren<{
   title: string;
